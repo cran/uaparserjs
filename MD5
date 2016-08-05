@@ -1,0 +1,14 @@
+7f8d138b814f084f1040efa8792f134c *DESCRIPTION
+4e9807cb4f53ff9a1fd3e6cc917be713 *NAMESPACE
+b3b026a46bd21378f2afa4cdfb4e4951 *NEWS.md
+85172069b02c8c135d7b17530e6344d0 *R/uaparser.R
+a98654d62bdf1068f5e174e0853b75f1 *R/uaparserjs-package.R
+59d71ad9ff71a8f32481d4bccbf08453 *R/zzz.r
+577784cb1a9591aa732414c90cc38cf7 *README.md
+3ddd108ccdeb8287a24c2f1449134460 *inst/js/bundle.js
+85b42748b40611c1a465e1be9a663d5e *inst/js/index.js
+906df3412b345ced013f0e2760510089 *man/ua_parse.Rd
+07bfbf3a8997fc7a26f2962d09c372b4 *man/uaparserjs.Rd
+f2a6460692c41839271a6041b1021498 *tests/agents.txt
+d835527cbfd628ad1e1c6cf2b441d91c *tests/test-all.R
+5bf4c1beeb6acb7a340e2361ae4940b5 *tests/testthat/test-uaparserjs.R
