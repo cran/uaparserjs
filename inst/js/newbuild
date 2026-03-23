@@ -1,0 +1,27 @@
+npm install --save-dev yaml base-64 uap-ref-impl
+
+mkdir tmp
+cd tmp
+git clone https://github.com/ua-parser/uap-core.git 
+git checkout regexes.yaml
+cp regexes.yaml ..
+
+node:
+const fs = require('fs')
+const YAML = require('yaml')
+const file = fs.readFileSync('regexes.yaml', 'utf8')
+fs.writeFileSync('regexes.json', JSON.stringify(YAML.parse(file)))
+
+
+command:
+base64 -e regexes.json  > regexes.b64
+
+insert regexes.b64 into index.js
+write header
+write start of assignment
+write lines 
+write end of assignment 
+wrie trailer text that consumes the assignment 
+
+webpack --mode="production" index.js -o bundle.js
+
