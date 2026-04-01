@@ -1,35 +1,35 @@
 Package: uaparserjs
 Type: Package
 Title: Parse 'User-Agent' Strings
-Version: 0.3.6
-Date: 2026-02-22
+Version: 0.3.7
+Date: 2026-04-01
 Authors@R: c(
     person("Bob", "Rudis", , "bob@rud.is", role = c("aut", "cph")),
     person("Greg", "Hunt", , "greg@firmansyah.com", role = c("aut", "cre", "cph")),
     person("Lindsey", "Simon", role = "aut", comment = "uap-core"),
     person("Tobie", "Langel", role = "aut", comment = "uap-core"),
     person("Colman", "Humphrey", role = "ctb"))
-Maintainer: Greg Hunt <greg@firmansyah.com>
 Description: Despite there being a section in RFC 7231
     <https://datatracker.ietf.org/doc/html/rfc7231#section-5.5.3> defining a suggested
     structure for 'User-Agent' headers this data is notoriously difficult
     to parse consistently. Tools are provided that will take in user agent
     strings and return structured R objects. This is a 'V8'-backed package
     based on the 'ua-parser' project <https://github.com/ua-parser>.
-URL: https://github.com/gregfrog/uaparserjs-a
-BugReports: https://github.com/gregfrog/uaparserjs-a/issues
+URL: https://github.com/gregfrog/uaparserjs
+BugReports: https://github.com/gregfrog/uaparserjs/issues
 License: Apache License 2.0 | file LICENSE
-Suggests: tinytest
+Suggests: tinytest, yaml
 Depends: R (>= 3.5.0)
 Encoding: UTF-8
 Imports: progress, V8
-RoxygenNote: 7.1.0
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2026-03-22 07:07:24 UTC; greg
+Packaged: 2026-04-01 08:25:52 UTC; greg
 Author: Bob Rudis [aut, cph],
   Greg Hunt [aut, cre, cph],
   Lindsey Simon [aut] (uap-core),
   Tobie Langel [aut] (uap-core),
   Colman Humphrey [ctb]
+Maintainer: Greg Hunt <greg@firmansyah.com>
 Repository: CRAN
-Date/Publication: 2026-03-23 07:30:02 UTC
+Date/Publication: 2026-04-01 10:10:03 UTC

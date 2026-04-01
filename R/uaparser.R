@@ -1,3 +1,20 @@
+
+  #  Copyright 2020 Bob Rudis
+  #  Copyright 2026 Greg Hunt
+
+  #  Licensed under the Apache License, Version 2.0 (the "License");
+  #  you may not use this file except in compliance with the License.
+  #  You may obtain a copy of the License at
+
+  #      http://www.apache.org/licenses/LICENSE-2.0
+
+  #  Unless required by applicable law or agreed to in writing, software
+  #  distributed under the License is distributed on an "AS IS" BASIS,
+  #  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  #  See the License for the specific language governing permissions and
+  #  limitations under the License.
+
+
 as_tibble <- function(.x) {
 
   out <- as.data.frame(.x, stringsAsFactors = FALSE)
@@ -17,8 +34,8 @@ as_tibble <- function(.x) {
 #' @return a data frame classed as tibble with columns for user agent family, major & minor versions
 #'     plus patch level along with OS family and major & minor versions plus
 #'     device brand and model.
-#' @references <http://www.uaparser.org/>
-#' @note The regex YAML import date: 2020-03-31
+#' @references <https://github.com/ua-parser/uap-core/>
+#' @note The regex YAML from uap-core is now updated when the package is rebuilt.  The effective date can be found in the NEWS file.
 #' @examples
 #' ua_parse(paste0("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.2 (KHTML, ",
 #'                 "like Gecko) Ubuntu/11.10 Chromium/15.0.874.106 ",

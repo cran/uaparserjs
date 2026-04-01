@@ -1,4 +1,11 @@
-# 0.3.6
+# 0.3.7 (2026-04-01)
+* Note: Includes UAP-Core regexes.yaml commits up to: Mon Feb 9 12:37:56 2026 +0000 256bff9
+* Change: added test cases from uap-core
+* Bug: Fixed handling of non-ASCII characters 
+* Change: updated code to latest uap-core definitions  
+* Change: scripted both update of regexes from uap-core and generation of javascript, note that user agent database mentioned below is not updated, if anyone knows what it is for and whether it matters please let me know.     
+
+# 0.3.6 (2026-03-21)
 * To avoid archiving: update NEWS file formatting for new CRAN check, transfer maintainer.
 * Minor updates to tests
 

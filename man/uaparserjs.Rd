@@ -2,6 +2,7 @@
 % Please edit documentation in R/uaparserjs-package.R
 \docType{package}
 \name{uaparserjs}
+\alias{uaparserjs-package}
 \alias{uaparserjs}
 \title{Parse 'User-Agent' Strings}
 \description{
@@ -11,6 +12,19 @@ structure for 'User-Agent' headers this data is notoriously difficult
 to parse consistently. Tools are provided that will take in user agent
 strings and return structured R objects. This is a 'V8'-backed package
 based on the 'ua-parser' project <https://github.com/ua-parser>.
+}
+\details{
+The package incorporates regular expressions and test data from the ua parser project 
+that are copyrighted by Google and the UA Parser contributors and are used 
+under an Apache 2 license.  See the UA parser project for details.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/gregfrog/uaparserjs}
+  \item Report bugs at \url{https://github.com/gregfrog/uaparserjs/issues}
+}
+
 }
 \author{
 Bob Rudis (@hrbrmstr)
