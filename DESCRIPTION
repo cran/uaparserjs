@@ -1,8 +1,8 @@
 Package: uaparserjs
 Type: Package
 Title: Parse 'User-Agent' Strings
-Version: 0.3.7
-Date: 2026-04-01
+Version: 0.3.8
+Date: 2026-05-09
 Authors@R: c(
     person("Bob", "Rudis", , "bob@rud.is", role = c("aut", "cph")),
     person("Greg", "Hunt", , "greg@firmansyah.com", role = c("aut", "cre", "cph")),
@@ -24,7 +24,7 @@ Encoding: UTF-8
 Imports: progress, V8
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2026-04-01 08:25:52 UTC; greg
+Packaged: 2026-05-09 06:49:49 UTC; greg
 Author: Bob Rudis [aut, cph],
   Greg Hunt [aut, cre, cph],
   Lindsey Simon [aut] (uap-core),
@@ -32,4 +32,4 @@ Author: Bob Rudis [aut, cph],
   Colman Humphrey [ctb]
 Maintainer: Greg Hunt <greg@firmansyah.com>
 Repository: CRAN
-Date/Publication: 2026-04-01 10:10:03 UTC
+Date/Publication: 2026-05-09 14:40:12 UTC
