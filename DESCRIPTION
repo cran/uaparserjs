@@ -1,8 +1,8 @@
 Package: uaparserjs
 Type: Package
 Title: Parse 'User-Agent' Strings
-Version: 0.4.0
-Date: 2026-07-02
+Version: 0.4.1
+Date: 2026-08-26
 Authors@R: c(
     person("Bob", "Rudis", , "bob@rud.is", role = c("aut", "cph")),
     person("Greg", "Hunt", , "greg@firmansyah.com", role = c("aut", "cre", "cph")),
@@ -11,8 +11,9 @@ Authors@R: c(
     person("Colman", "Humphrey", role = "ctb"),
     person("Jim", "Vine", role = "ctb"))
 Description: 
-    Parses HTTP user agent strings and returns user agent, device and OS information.  This is a 'V8'-backed package
-    based on the 'ua-parser' project <https://github.com/ua-parser>.
+    Parses HTTP user agent strings and returns user agent, device and OS information.  
+    This is a ‘V8’-backed package that uses the UA, device and OS definitions from the ‘ua-parser’
+    project <https://github.com/ua-parser>.
 URL: https://github.com/gregfrog/uaparserjs
 BugReports: https://github.com/gregfrog/uaparserjs/issues
 License: Apache License 2.0 | file LICENSE
@@ -21,7 +22,7 @@ Depends: R (>= 3.5.0)
 Encoding: UTF-8
 Imports: progress, V8
 NeedsCompilation: no
-Packaged: 2026-07-01 22:19:07 UTC; greg
+Packaged: 2026-08-27 04:18:19 UTC; greg
 Author: Bob Rudis [aut, cph],
   Greg Hunt [aut, cre, cph],
   Lindsey Simon [aut] (uap-core),
@@ -30,4 +31,4 @@ Author: Bob Rudis [aut, cph],
   Jim Vine [ctb]
 Maintainer: Greg Hunt <greg@firmansyah.com>
 Repository: CRAN
-Date/Publication: 2026-07-02 21:50:02 UTC
+Date/Publication: 2026-08-28 10:00:02 UTC
